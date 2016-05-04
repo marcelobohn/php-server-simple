@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 header('Content-type: application/json');
 parse_str($_SERVER['QUERY_STRING'], $params);
 $data = array();

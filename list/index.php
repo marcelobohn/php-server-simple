@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 header('Content-type: application/json');
 $data = array();
 array_push($data, array('chave' => 1, 'nome' => 'banana', 'valor' => 1.25, 'staus' => 'A', 'estoque' => 20));
